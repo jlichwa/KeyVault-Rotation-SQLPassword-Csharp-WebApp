@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Key Vault Secret User Tag: <code>@Model.CredentialIdTag</code></p>
+        <p>Key Vault Secret Value: <code>@Model.SecretValue</code></p>
+        <p>Database Connected: <code>@Model.DatabaseConnected</code></p>
+        <p>Number of Retries <code>@Model.RetriesCount</code></p>
+    </div>
