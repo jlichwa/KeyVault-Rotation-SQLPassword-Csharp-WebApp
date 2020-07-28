@@ -42,21 +42,16 @@
   "resources":[
       {  
         "type":"Microsoft.Web/serverfarms",
-        "apiVersion":"2018-02-01",
+        "apiVersion":"2019-08-01",
         "name":"[concat(parameters('ResourceNamePrefix'),'-app')]",
         "location":"[resourceGroup().location]",
         "sku":{  
-           "name": "Y1",
-           "tier": "Dynamic"
-        },
-        "properties": {
-                "name": "[concat(parameters('ResourceNamePrefix'),'-app')]",
-                "computeMode": "Dynamic"
+           "name": "F1"
         }
      },
      {  
         "type":"Microsoft.Web/sites",
-        "apiVersion":"2018-11-01",
+        "apiVersion":"2019-08-01",
         "name":"[concat(parameters('ResourceNamePrefix'),'-app')]",
         "location":"[resourceGroup().location]",
         "dependsOn":[  
@@ -67,32 +62,8 @@
            "type":"SystemAssigned"
         },
         "properties":{  
-           "enabled":true,
-           "hostNameSslStates":[  
-              {  
-                 "name":"[concat(parameters('ResourceNamePrefix'),'-app', '.azurewebsites.net')]",
-                 "sslState":"Disabled",
-                 "hostType":"Standard"
-              },
-              {  
-                 "name":"[concat(parameters('ResourceNamePrefix'),'-app', '.scm.azurewebsites.net')]",
-                 "sslState":"Disabled",
-                 "hostType":"Repository"
-              }
-           ],
            "serverFarmId":"[resourceId('Microsoft.Web/serverfarms', concat(parameters('ResourceNamePrefix'),'-app'))]",
-           "reserved":false,
-           "isXenon":false,
-           "hyperV":false,
-           "scmSiteAlsoStopped":false,
-           "clientAffinityEnabled":true,
-           "clientCertEnabled":false,
-           "hostNamesDisabled":false,
-           "containerSize":0,
-           "dailyMemoryTimeQuota":0,
-           "httpsOnly":false,
-           "redundancyMode":"None",
-           "siteConfig":{  
+         "siteConfig":{  
               "appSettings":[
                  {  
                     "name":"DataSource",
@@ -112,7 +83,7 @@
         "resources": [
                 {
                     "type": "sourcecontrols",
-                    "apiVersion": "2018-11-01",
+                    "apiVersion": "2019-08-01",
                     "name": "web",
                     "dependsOn": [
                         "[resourceId('Microsoft.Web/Sites', concat(parameters('ResourceNamePrefix'),'-app'))]"
