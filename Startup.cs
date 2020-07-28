@@ -33,7 +33,7 @@ namespace KeyVault_Rotation_SQLPassword_Csharp_WebApp
         
             services.AddMemoryCache();
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,7 +51,13 @@ namespace KeyVault_Rotation_SQLPassword_Csharp_WebApp
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
-            app.UseMvc();
+            app.UseRouting();
+            app.UseAuthorization();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapRazorPages();
+            });
         }
     }
 }
