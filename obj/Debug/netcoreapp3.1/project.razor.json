@@ -20518,7 +20518,43 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": null,
-  "Documents": [],
+  "RootNamespace": "KeyVault_Rotation_SQLPassword_Csharp_WebApp",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\jalichwa\\Documents\\GitHub\\SQLRotation\\KeyVault-Rotation-SQLPassword-Csharp-WebApp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jalichwa\\Documents\\GitHub\\SQLRotation\\KeyVault-Rotation-SQLPassword-Csharp-WebApp\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jalichwa\\Documents\\GitHub\\SQLRotation\\KeyVault-Rotation-SQLPassword-Csharp-WebApp\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jalichwa\\Documents\\GitHub\\SQLRotation\\KeyVault-Rotation-SQLPassword-Csharp-WebApp\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jalichwa\\Documents\\GitHub\\SQLRotation\\KeyVault-Rotation-SQLPassword-Csharp-WebApp\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jalichwa\\Documents\\GitHub\\SQLRotation\\KeyVault-Rotation-SQLPassword-Csharp-WebApp\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jalichwa\\Documents\\GitHub\\SQLRotation\\KeyVault-Rotation-SQLPassword-Csharp-WebApp\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

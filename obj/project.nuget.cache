@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6BTTrhRVAaxG6nPfOhxQfG706lVGUJNg8mBAeTTLArwjkAEFC9gbdxkTf0V58DvLJ0qICxCr+ZMk/BRk6gpfxA==",
+  "dgSpecHash": "G0eXOLgjp/nItNvsx/oX4O//v/BhAoWCvaRoyL+nvztEc0HW+YSq+5I9Xo/un3tGxKQ3qRw292cLJQRgZXqssQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\jalichwa\\Documents\\GitHub\\SQLRotation\\KeyVault-Rotation-SQLPassword-Csharp-WebApp\\KeyVault-Rotation-SQLPassword-Csharp-WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jalichwa\\.nuget\\packages\\azure.core\\1.0.1\\azure.core.1.0.1.nupkg.sha512",
     "C:\\Users\\jalichwa\\.nuget\\packages\\azure.identity\\1.1.0\\azure.identity.1.1.0.nupkg.sha512",
     "C:\\Users\\jalichwa\\.nuget\\packages\\azure.security.keyvault.secrets\\4.0.0\\azure.security.keyvault.secrets.4.0.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.razor.design\\2.2.0\\microsoft.aspnetcore.razor.design.2.2.0.nupkg.sha512",
     "C:\\Users\\jalichwa\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\jalichwa\\.nuget\\packages\\microsoft.identity.client\\4.1.0\\microsoft.identity.client.4.1.0.nupkg.sha512",
