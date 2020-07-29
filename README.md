@@ -2,7 +2,7 @@
 
 This web application is part of tutorial for SQL Password rotation to test access to SQL using Key Vault secret.
 
-Entire tutorial can be found [here](https://docs.microsoft.com/en-us/azure/key-vault/secrets/tutorial-rotation)
+Tutorial using this web app can be found [here](https://docs.microsoft.com/en-us/azure/key-vault/secrets/tutorial-rotation)
 
 
 ## ARM Templates
